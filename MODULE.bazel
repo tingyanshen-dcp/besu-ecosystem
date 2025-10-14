@@ -1,0 +1,7 @@
+""" Besu Ecosystem """
+module(
+    name = "besu-ecosystem",
+    compatibility_level = 1,
+    repo_name = "besu_ecosystem",
+    version = "2025.0.0-SNAPSHOT",
+)

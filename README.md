@@ -1,1 +1,2 @@
-# Besu Ecosystem
+# Besu Ecosystem [![BazelBuild](https://github.com/tingyanshen-dcp/besu-ecosystem/actions/workflows/bazel.yml/badge.svg)](https://github.com/tingyanshen-dcp/besu-ecosystem/actions/workflows/bazel.yml)
+Hyperledger Besu Ecosystem that complements Hyperledger Besu.

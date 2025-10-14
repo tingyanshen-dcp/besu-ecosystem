@@ -7,3 +7,10 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
+
+[{BUILD,*.BUILD,*.bzl,*.bazel,*.MODULE.bazel}]
+indent_size = 4
+
+[.gitmodules]
+indent_size = 4
+indent_style = tab
