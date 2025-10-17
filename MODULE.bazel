@@ -6,4 +6,5 @@ module(
     version = "2025.0.0-SNAPSHOT",
 )
 
+bazel_dep(name = "rules_license", version = "1.0.0")
 bazel_dep(name = "besu-contrib", version = "8ffd4c90bf8778dc29d326a710d029366226f870")
