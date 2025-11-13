@@ -29,11 +29,13 @@ multiple_version_override(
     ],
 )
 
+bazel_dep(name = "besu", version = "23.10.0", repo_name = "besu_231000")
 bazel_dep(name = "besu", version = "23.10.3-hotfix", repo_name = "besu_23103_hotfix")
 bazel_dep(name = "besu", version = "24.10.0", repo_name = "besu_241000")
 multiple_version_override(
     module_name = "besu",
     versions = [
+        "23.10.0",
         "23.10.3-hotfix",
         "24.10.0",
     ],
