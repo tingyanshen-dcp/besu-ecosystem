@@ -5,3 +5,7 @@
 bazel-*
 MODULE.bazel.lock
 user.bazelrc
+
+# Jetbrains IDEs
+.idea/
+.ijwb/
